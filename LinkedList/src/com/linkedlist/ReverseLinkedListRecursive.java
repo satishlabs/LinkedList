@@ -45,7 +45,7 @@ public class ReverseLinkedListRecursive {
  // Complete the reverse function below. 
  static Node reverse(Node head) { 
      if(head == null) { 
-         return head; 
+         return null; 
      } 
 
      // last node or only one node 
