@@ -47,7 +47,6 @@ public class BinarySearchTree {
 			System.out.println(root.data);
 			inorderRec(root.right);
 		}
-		
 	}
 	public static void main(String[] args) {
 		BinarySearchTree bst = new BinarySearchTree();
