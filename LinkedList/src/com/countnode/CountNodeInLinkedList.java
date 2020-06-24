@@ -43,7 +43,6 @@ public class CountNodeInLinkedList {
 			}
 			return count;
 		}
-
 		private void printNode() {
 			Node temp = head;
 			while(temp != null) {
